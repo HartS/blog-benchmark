@@ -8,8 +8,8 @@ export default withPosts(({ posts }) => {
     {
       posts.map(post => (        
         <article key={post.data.__id}>
-          <h1>{post.data.title}</h1>
-          <Content {...post} />
+          <h1><a href={post.data.url}>{post.data.title}</a></h1>
+          <Content excerpt {...post} />
         </article>
       ))
     }
