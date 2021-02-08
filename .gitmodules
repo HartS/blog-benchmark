@@ -1,0 +1,3 @@
+[submodule "markdown-guide-book"]
+	path = markdown-guide-book
+	url = https://github.com/mattcone/markdown-guide-book

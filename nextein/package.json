@@ -1,0 +1,20 @@
+{
+  "name": "nextein",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nextein",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^10.0.6",
+    "nextein": "^3.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.21.2"
+  }
+}
